@@ -2,7 +2,6 @@
 Linear model class for delphi.
 """
 
-from helpers import Parameters
 import torch as ch
 from torch import Tensor
 from torch.nn import Parameter
@@ -10,6 +9,7 @@ from sklearn.linear_model import LinearRegression
 from typing import NamedTuple
 
 from AIStats import model
+from AIStats.helpers import Parameters
 
 
 class Bounds(NamedTuple):
