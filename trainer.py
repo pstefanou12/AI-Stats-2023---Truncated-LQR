@@ -10,10 +10,10 @@ from time import time
 from tqdm import tqdm
 import copy
 
-from model import Model
-from helpers import AverageMeter, setup_store_with_metadata, Parameters
-from defaults import check_and_fill_args, TRAINER_DEFAULTS
-import constants as consts
+from AIStats.model import Model
+from AIStats.helpers import AverageMeter, setup_store_with_metadata, Parameters
+from AIStats.defaults import check_and_fill_args, TRAINER_DEFAULTS
+import AIStats.constants as consts
 
 # CONSTANTS
 TRAIN = 'train'

@@ -10,7 +10,7 @@ import warnings
 from abc import ABC, abstractmethod
 from typing import Any
 
-from defaults import DEFAULTS, check_and_fill_args
+from AIStats.defaults import DEFAULTS, check_and_fill_args
 
 # CONSTANTS 
 BY_ALG = 'by algorithm'  # default parameter depends on algorithm

@@ -9,7 +9,7 @@ from torch.nn import Parameter
 from sklearn.linear_model import LinearRegression
 from typing import NamedTuple
 
-import model
+from AIStats import model
 
 
 class Bounds(NamedTuple):

@@ -4,7 +4,7 @@ Default parameters for running algorithms in delphi.ai.
 
 from typing import Iterable
 
-from helpers import has_attr
+from AIStats.helpers import has_attr
 
 
 # CONSTANTS
