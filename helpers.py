@@ -7,7 +7,7 @@ import torch as ch
 import cox
 import pprint
 
-import constants as consts
+import AIStats.constants as consts
 
 # CONSTANTS
 JUPYTER = 'jupyter'
